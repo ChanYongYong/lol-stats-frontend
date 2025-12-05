@@ -21,3 +21,83 @@
     margin: 8px 0;
 }
 
+@media (max-width: 768px) {
+    .match-summary {
+        margin: 0 10px 8px;
+        padding: 12px;
+        flex-wrap: wrap;
+    }
+
+    .champion-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .champion-level {
+        font-size: 10px;
+        padding: 1px 4px;
+    }
+
+    .spell-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .champion-name {
+        font-size: 14px;
+    }
+
+    .team-details {
+        margin: 8px 10px;
+        padding: 8px;
+    }
+
+    .team-table {
+        font-size: 12px;
+    }
+
+    .team-table th,
+    .team-table td {
+        padding: 4px;
+    }
+
+    .damage-bg {
+        width: 60px;
+    }
+
+    .item-list img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .match-summary {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .champion-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .spell-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .champion-name {
+        font-size: 13px;
+    }
+
+    .team-table {
+        min-width: 500px;
+    }
+
+    .team-table th,
+    .team-table td {
+        font-size: 11px;
+        padding: 3px;
+    }
+}
