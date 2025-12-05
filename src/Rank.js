@@ -13,7 +13,7 @@ let Rank =()=>{
     };
 
     const getRankInfo = () => {
-        axios.get('http://localhost:8080/user/rank', {
+        axios.get('https://lol-stats-backend.onrender.com/user/rank', {
             params: {
                 region,
                 name,

@@ -10,7 +10,7 @@ let SummonerList = () => {
     const [matches,setMatches]=useState([]);//데이터 시각화하기 위해 담는 변수
 
     let getMatchList = async()=>{
-        axios.get('http://localhost:8080/user/matches', {
+        axios.get('https://lol-stats-backend.onrender.com/user/matches', {
             params:{
                 region:region,
                 name: name,
